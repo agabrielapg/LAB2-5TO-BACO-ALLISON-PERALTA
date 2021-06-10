@@ -1,0 +1,59 @@
+body {
+    background-color: aquamarine;
+    margin: 0px;
+    padding: 0%;
+}
+
+.titulo {
+    color: blueviolet;
+    font-size: 70 px;
+    margin-top: 200px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.tarjetas {
+    margin: 10px;
+    border: 4px burlywood;
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    width: 400px;
+    height: 210px;
+    background-color: cyan;
+}
+
+.tarjetas img{
+    width: 200px;
+    height: 170px;
+    border-radius: 85px;
+    margin-right: 30px;
+    align-self: center; 
+}
+
+.contenido{
+    color: darksalmon;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 85px;
+    margin-right: 30px;
+}
+
+.contenido h2{
+    color: deeppink;
+    font-size: 22px;
+    text-align: center;
+}
+
+.contenido p{
+    text-align: justify;
+    color: forestgreen rgb(red, green, blue);
+}
+
+.contenedor { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+

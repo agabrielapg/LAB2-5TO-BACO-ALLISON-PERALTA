@@ -1,0 +1,65 @@
+body{
+    background-color: #e3ff7f;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tarjeta{
+    width: 220px;
+    height: 360px;
+    background-color: #7294c0a9;
+    border-radius: 25px;
+    padding: 50px;
+    border: 8px solid rgb(160, 216, 146);
+    margin-right: 20px;
+}
+
+.tarjeta img{
+    padding-left: 30px;
+    width: 90px;
+}
+
+.tarjeta p{
+    text-align: justify;
+    margin-bottom: 50px;
+} 
+
+.title{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.658);
+    margin-top: 120px;
+    font-size: 70px;
+}
+
+.tarjeta:hover{
+    background-color: rgb(110, 141, 189);
+    color: rgba(255, 255, 255, 0.548);
+    transition: 540ms;
+}
+
+.tarjeta a{
+    text-decoration: none;
+    color: rgba(59, 185, 107, 0.678);
+    font-size: 18px;
+    background-color: rgb(32, 118, 133);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+body:hover{
+    background-color: springgreen;
+    transition: 800ms;
+}
+
+/* reto */ 
+
+.tarjeta a:hover{
+    background-color:rgb(47, 0, 255);
+    color: black;
+    transition: 540ms;
+}
